@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7d10445e-300a-42cc-a4eb-9800bd96f911" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Xi2zbfEs7jwwy43YRgEqT0LwVk" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ekaterina.repository" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ekaterina.repository" />
+      <recent name="ekaterina.controller" />
+      <recent name="ekaterina.controllers" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp" />
+      <recent name="$PROJECT_DIR$/src/main/java/ekaterina" />
+      <recent name="$PROJECT_DIR$/src/main/java/ekaterina/pojo" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7d10445e-300a-42cc-a4eb-9800bd96f911" name="Default Changelist" comment="" />
+      <created>1581514857660</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581514857660</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.jsp" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="614" y="238" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581517998654">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state x="614" y="238" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.811@0.23.1440.811" timestamp="1581517998654" />
+    <state x="675" y="136" key="#com.intellij.ide.util.MemberChooser" timestamp="1581589848873">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state x="675" y="136" key="#com.intellij.ide.util.MemberChooser/0.23.1440.811@0.23.1440.811" timestamp="1581589848873" />
+    <state width="1178" height="173" key="GridCell.Tab.0.bottom" timestamp="1581593993032">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state width="1398" height="173" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581531175063" />
+    <state width="1178" height="173" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1581593993032" />
+    <state width="1178" height="173" key="GridCell.Tab.0.center" timestamp="1581593993031">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state width="1398" height="173" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581531175062" />
+    <state width="1178" height="173" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1581593993031" />
+    <state width="1178" height="173" key="GridCell.Tab.0.left" timestamp="1581593993031">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state width="1398" height="173" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581531175061" />
+    <state width="1178" height="173" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1581593993031" />
+    <state width="1178" height="173" key="GridCell.Tab.0.right" timestamp="1581593993032">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state width="1398" height="173" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581531175062" />
+    <state width="1178" height="173" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1581593993032" />
+    <state x="315" y="23" key="SettingsEditor" timestamp="1581515632154">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state x="315" y="23" key="SettingsEditor/0.23.1440.811@0.23.1440.811" timestamp="1581515632154" />
+  </component>
+  <component name="regexState">
+    <option name="map">
+      <map>
+        <entry key="flags" value="0" />
+        <entry key="mode" value="0" />
+        <entry key="regex" value="[A-Za-z0-9]" />
+        <entry key="text" value="wasfdcnweqwr2o3iq42epwOутоывлдфслотвдфаысидрасдшудensqi230p9" />
+      </map>
+    </option>
+  </component>
+</project>

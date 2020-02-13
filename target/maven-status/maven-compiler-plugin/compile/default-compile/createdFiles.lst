@@ -1,0 +1,16 @@
+ekaterina/pojo/RoleType.class
+ekaterina/ProjectConfiguration.class
+ekaterina/pojo/UserAccount.class
+ekaterina/repository/UserRoleRepository.class
+ekaterina/security/AuthenticationService.class
+ekaterina/controller/UserAccountController.class
+ekaterina/repository/UserAccountRepository.class
+ekaterina/pojo/UserRole.class
+ekaterina/pojo/StatusType.class
+ekaterina/pojo/UserStatus.class
+ekaterina/repository/UserStatusRepository.class
+ekaterina/security/SecurityConfiguration.class
+ekaterina/controller/LoginController.class
+ekaterina/service/UserAccountService.class
+ekaterina/ProjectInitializer.class
+ekaterina/security/SecurityInitializer.class
