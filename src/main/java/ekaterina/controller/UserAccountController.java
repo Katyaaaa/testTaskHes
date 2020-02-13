@@ -1,6 +1,5 @@
 package ekaterina.controller;
 
-import ekaterina.pojo.RoleType;
 import ekaterina.pojo.StatusType;
 import ekaterina.pojo.UserAccount;
 import ekaterina.pojo.UserStatus;
@@ -33,6 +32,8 @@ public class UserAccountController {
 	@Autowired
 	UserStatusRepository userStatusRepository;
 
+	StringBuilder errors;
+
 	@GetMapping("/")
 	public String userAccountListView(Model model){
 		List<UserAccount> allUsers = userAccountService.getAllUser();
@@ -48,7 +49,6 @@ public class UserAccountController {
 
 	@GetMapping("/{id}")
 	public String  userAccountDetails(@PathVariable Long id, Model model){
-		log.info("Inside the userDetailsMethod");
 		model.addAttribute("userAccount", userAccountService.findById(id));
 		return "userAccount";
 	}
@@ -89,22 +89,22 @@ public class UserAccountController {
 			model.addAttribute("unsuccessful", "User with similar Username already exist");
 			return null;
 		}
-		List<UserAccount> allUsers = userAccountService.getAllUser();
-		log.info("All userAccounts:" + allUsers);
-		model.addAttribute("userAccounts", allUsers);
-		model.addAttribute("userAccount", null);
-		return "userAccount";
+			List<UserAccount> allUsers = userAccountService.getAllUser();
+			log.info("All userAccounts:" + allUsers);
+			model.addAttribute("userAccounts", allUsers);
+			model.addAttribute("userAccount", null);
+			return "userAccount";
 	}
-
 
 
 	@GetMapping("/userAccount/sortByUserName")
 	public String sortedByNameView(Model model){
 		List<UserAccount> allUsers = userAccountService.getAllUser();
+		model.addAttribute("accountsCount", allUsers.size());
 		log.info("All userAccounts:" + allUsers);
 		Comparator<UserAccount> compareByUserName = (a1, a2)->
 				a1.getUserName().compareTo(a2.getUserName());
-		Collections.sort(allUsers, compareByUserName);
+		allUsers.sort(compareByUserName);
 		model.addAttribute("userAccounts", allUsers);
 		return "userAccount";
 	}
@@ -116,7 +116,7 @@ public class UserAccountController {
 		log.info("All userAccounts:" + allUsers);
 		Comparator<UserAccount> compareByUserName = (a1, a2)->
 				a1.getUserRole().getRoleType().compareTo(a2.getUserRole().getRoleType());
-		Collections.sort(allUsers, compareByUserName);
+		allUsers.sort(compareByUserName);
 		model.addAttribute("userAccounts", allUsers);
 		return "userAccount";
 	}

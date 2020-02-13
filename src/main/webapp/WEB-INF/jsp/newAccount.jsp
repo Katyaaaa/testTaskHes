@@ -18,25 +18,25 @@ ${errors}
   <div class="form-group row">
     <label for="userName" class="col-sm-2 col-form-label">User name</label>
     <div class="col-sm-4">
-      <input type="text" required="" name= "userName" value="kkkk" class="form-control" id="userName">
+      <input type="text" required="" pattern="[A-Za-z]{3,16}" name= "userName" value="kkkk" class="form-control" id="userName" oninvalid="setCustomValidity('Please use latin characters only. Username length should be 3-16')" onchange="try{setCustomValidity('')}catch(e){}" />
     </div>
   </div>
   <div class="form-group row">
     <label for="password" class="col-sm-2 col-form-label">Password</label>
     <div class="col-sm-4">
-      <input type="password" required="" name= "password" value="kkkk" class="form-control" id="password">
+      <input type="password" required="" pattern="[A-Za-z0-9]{3,16}" name= "password" value="kkkk" class="form-control" id="password" oninvalid="setCustomValidity('Please use latin characters and numbers only. Password length should be 3-16')" onchange="try{setCustomValidity('')}catch(e){}" />
     </div>
   </div>
   <div class="form-group row">
     <label for="firstName" class="col-sm-2 col-form-label">First name</label>
     <div class="col-sm-4">
-      <input type="text" required="" name="firstName" value="firstNameTest" class="form-control" id="firstName">
+      <input type="text" required="" pattern="[A-Za-z]{1,16}" name="firstName" value="firstNameTest" class="form-control" id="firstName" oninvalid="setCustomValidity('Please use latin characters only. First name length should be no longer than 16')" onchange="try{setCustomValidity('')}catch(e){}" />
     </div>
   </div>
   <div class="form-group row">
       <label for="pwd_conf" class="col-sm-2 col-form-label">Last name</label>
       <div class="col-sm-4">
-        <input type="text" required="" name="lastName" value="lastNameTest" class="form-control" id="lastName">
+        <input type="text" required="" pattern="[A-Za-z]{1,16}" name="lastName" value="lastNameTest" class="form-control" id="lastName" oninvalid="setCustomValidity('Please use latin characters only. Last name length should be no longer than 16')" onchange="try{setCustomValidity('')}catch(e){}" />
       </div>
     </div>
 

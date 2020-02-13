@@ -19,19 +19,19 @@ ${errors}
   <div class="form-group row">
     <label for="userName" class="col-sm-2 col-form-label">Username</label>
     <div class="col-sm-4">
-      <input type="text" required="" name= "userName" value="${userAccount.userName}" class="form-control" id="userName">
+      <input type="text" required="" pattern="[A-Za-z]{3,16}" name= "userName" value="${userAccount.userName}" class="form-control" id="userName" oninvalid="setCustomValidity('Please use latin characters only. Username length should be 3-16')" onchange="try{setCustomValidity('')}catch(e){}">
     </div>
   </div>
   <div class="form-group row">
     <label for="password" class="col-sm-2 col-form-label">First name</label>
     <div class="col-sm-4">
-      <input type="text" required="" name= "firstName" value="${userAccount.firstName}" class="form-control" id="firstName">
+      <input type="text" required="" pattern="[A-Za-z]{1,16}" name= "firstName" value="${userAccount.firstName}" class="form-control" id="firstName" oninvalid="setCustomValidity('Please use latin characters only. First name length should be no longer than 16')" onchange="try{setCustomValidity('')}catch(e){}">
     </div>
   </div>
   <div class="form-group row">
     <label for="firstName" class="col-sm-2 col-form-label">Last name</label>
     <div class="col-sm-4">
-      <input type="text" required="" name="lastName" value="${userAccount.lastName}" class="form-control" id="lastName">
+      <input type="text" required="" pattern="[A-Za-z]{1,16}" name="lastName" value="${userAccount.lastName}" class="form-control" id="lastName" oninvalid="setCustomValidity('Please use latin characters only. Last name length should be no longer than 16')" onchange="try{setCustomValidity('')}catch(e){}">
     </div>
   </div>
  <div class="form-group">
@@ -57,6 +57,8 @@ ${errors}
   <div class="form-group">
     <button type="submit" class="btn btn-dark">Submit</button>
   <div>
+
+
 
 
 </form>

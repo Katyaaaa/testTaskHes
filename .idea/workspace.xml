@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d10445e-300a-42cc-a4eb-9800bd96f911" name="Default Changelist" comment="" />
+    <list default="true" id="7d10445e-300a-42cc-a4eb-9800bd96f911" name="Default Changelist" comment="validation added">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ekaterina/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ekaterina/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ekaterina/controller/UserAccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ekaterina/controller/UserAccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/newAccount.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/newAccount.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/userAccount.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/userAccount.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ekaterina/controller/UserAccountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ekaterina/controller/UserAccountController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hesTestMaven-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/hesTestMaven-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hesTestMaven-1.0-SNAPSHOT/WEB-INF/classes/ekaterina/controller/UserAccountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/hesTestMaven-1.0-SNAPSHOT/WEB-INF/classes/ekaterina/controller/UserAccountController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hesTestMaven-1.0-SNAPSHOT/WEB-INF/jsp/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/hesTestMaven-1.0-SNAPSHOT/WEB-INF/jsp/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hesTestMaven-1.0-SNAPSHOT/WEB-INF/jsp/newAccount.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/hesTestMaven-1.0-SNAPSHOT/WEB-INF/jsp/newAccount.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hesTestMaven-1.0-SNAPSHOT/WEB-INF/jsp/userAccount.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/hesTestMaven-1.0-SNAPSHOT/WEB-INF/jsp/userAccount.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +28,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,19 +39,25 @@
     </option>
   </component>
   <component name="ProjectId" id="1Xi2zbfEs7jwwy43YRgEqT0LwVk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/tag" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ekaterina.repository" />
     </key>
@@ -44,6 +67,7 @@
       <recent name="ekaterina.controllers" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/tag" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp" />
       <recent name="$PROJECT_DIR$/src/main/java/ekaterina" />
       <recent name="$PROJECT_DIR$/src/main/java/ekaterina/pojo" />
@@ -66,6 +90,10 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.jsp" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="validation added" />
+    <option name="LAST_COMMIT_MESSAGE" value="validation added" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="614" y="238" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581517998654">
       <screen x="0" y="23" width="1440" height="811" />
@@ -75,38 +103,46 @@
       <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state x="675" y="136" key="#com.intellij.ide.util.MemberChooser/0.23.1440.811@0.23.1440.811" timestamp="1581589848873" />
-    <state width="1178" height="173" key="GridCell.Tab.0.bottom" timestamp="1581593993032">
+    <state x="520" y="30" key="CommitChangelistDialog2" timestamp="1581602820290">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state x="520" y="30" key="CommitChangelistDialog2/0.23.1440.811@0.23.1440.811" timestamp="1581602820290" />
+    <state width="1299" height="173" key="GridCell.Tab.0.bottom" timestamp="1581602963744">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state width="1398" height="173" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581531175063" />
-    <state width="1178" height="173" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1581593993032" />
-    <state width="1178" height="173" key="GridCell.Tab.0.center" timestamp="1581593993031">
+    <state width="1299" height="173" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1581602963744" />
+    <state width="1299" height="173" key="GridCell.Tab.0.center" timestamp="1581602963743">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state width="1398" height="173" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581531175062" />
-    <state width="1178" height="173" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1581593993031" />
-    <state width="1178" height="173" key="GridCell.Tab.0.left" timestamp="1581593993031">
+    <state width="1299" height="173" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1581602963743" />
+    <state width="1299" height="173" key="GridCell.Tab.0.left" timestamp="1581602963743">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state width="1398" height="173" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581531175061" />
-    <state width="1178" height="173" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1581593993031" />
-    <state width="1178" height="173" key="GridCell.Tab.0.right" timestamp="1581593993032">
+    <state width="1299" height="173" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1581602963743" />
+    <state width="1299" height="173" key="GridCell.Tab.0.right" timestamp="1581602963743">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state width="1398" height="173" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581531175062" />
-    <state width="1178" height="173" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1581593993032" />
+    <state width="1299" height="173" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1581602963743" />
     <state x="315" y="23" key="SettingsEditor" timestamp="1581515632154">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state x="315" y="23" key="SettingsEditor/0.23.1440.811@0.23.1440.811" timestamp="1581515632154" />
+    <state x="783" y="158" width="670" height="676" key="search.everywhere.popup" timestamp="1581595574582">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state x="783" y="158" width="670" height="676" key="search.everywhere.popup/0.23.1440.811@0.23.1440.811" timestamp="1581595574582" />
   </component>
   <component name="regexState">
     <option name="map">
       <map>
         <entry key="flags" value="0" />
         <entry key="mode" value="0" />
-        <entry key="regex" value="[A-Za-z0-9]" />
-        <entry key="text" value="wasfdcnweqwr2o3iq42epwOутоывлдфслотвдфаысидрасдшудensqi230p9" />
+        <entry key="regex" value="[A-Za-z0-9]{3,16}" />
+        <entry key="text" value="12345678911234567" />
       </map>
     </option>
   </component>
